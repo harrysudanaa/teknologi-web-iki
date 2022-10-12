@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Web 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" alt="logo" height="100" width="100">
+        <div class="header">
+            <h1>Selamat Datang
+                <h1 />
+                <h3>Sistem Informasi Pendataan Karyawan</h3>
+        </div>
+        <a href="">Logout</a>
+    </header>
+
+    <div class="container-content">
+        <nav>
+            <h2>Menu</h2>
+            <hr class="line menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Biodata</a></li>
+                <li><a href="">Update Biodata</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <h2>Update Biodata Karyawan</h2>
+            <hr class="line bio">
+            <div class="form">
+                <form action="">
+                    <ul>
+                        <div class="akun">
+                            <li>
+                                <label for="nama">Nama</label>
+                                <input type="text" id="nama" name="nama" value="" placeholder="Tuliskan Nama Anda"
+                                    autocomplete="off">
+                            </li>
+                            <li>
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password" value=""
+                                    placeholder="Tuliskan Password Anda">
+                            </li>
+                        </div>
+                        <li>
+                            <label for="jk">Jenis Kelamin</label>
+                            <input type="radio" id="jk" name="jenisKelamin" value="Laki-Laki" checked>Laki-Laki
+                            <br>
+                            <input type="radio" id="jk" name="jenisKelamin" value="Perempuan">Perempuan
+                        </li>
+                        <li>
+                            <label for="hobi">Hobi</label>
+                            <input type="checkbox" id="hobi" name="hobi" value="Membaca Buku" checked>Membaca Buku
+                            <input type="checkbox" id="hobi" name="hobi" value="Menulis">Menulis
+                            <input type="checkbox" id="hobi" name="hobi" value="Memancing">Memancing
+                        </li>
+                        <li>
+                            <label for="asalKota">Asal Kota</label>
+                            <select name="asalKota" id="asalKota">
+                                <option value="Kota Jakarta">Jakarta</option>
+                                <option value="Kota Semarang">Semarang</option>
+                                <option value="Kota Denpasar">Denpasar</option>
+                            </select>
+                        </li>
+                        <li>
+                            <label for="">Komentar</label>
+                            <textarea name="komentar" id="komentar" cols="30" rows="10"
+                                placeholder="Masukkan komentar disini"></textarea>
+                        </li>
+                        <button type="submit">Simpan</button>
+                    </ul>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        <p>Copyright © Harry Sudana</p>
+    </footer>
+</body>
+
+</html>
